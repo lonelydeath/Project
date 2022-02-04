@@ -40,6 +40,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 3000;
 }
 .sv-content{
     color:#fff;
@@ -54,13 +55,12 @@
     font-size:1.2em;
 }
 .sba-main{
-    position: relative;
-    overflow: hidden;
+    position: relative;    
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #111;
+    background: #222222;
 }
 .sba-container{
     position: absolute;
